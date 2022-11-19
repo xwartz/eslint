@@ -30,6 +30,7 @@ jobs:
           *)
            echo "r_tag=latest" >> $GITHUB_ENV;;
           esac
+
       - name: publish
         run: |
           echo ">> dist-tag: ${{ env.r_tag }}"
