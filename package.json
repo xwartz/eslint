@@ -1,0 +1,27 @@
+{
+  "name": "@xwartz/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "description": "This is personal eslint configuration.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xwartz/eslint-config"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "pnpm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "packageManager": "pnpm@7.14.2"
+}

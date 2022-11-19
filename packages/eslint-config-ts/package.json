@@ -1,0 +1,26 @@
+{
+  "name": "@xwartz/eslint-config-ts",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "xwartz",
+  "files": [
+    "index.js",
+    "rules.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwartz/eslint-config.git"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.28.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

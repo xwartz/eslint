@@ -1,0 +1,11 @@
+{
+  "name": "@xwartz/prettier",
+  "version": "0.0.0",
+  "description": "This is prettier config for myself.",
+  "main": "prettier.json",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "@xwartz",
+  "license": "MIT"
+}

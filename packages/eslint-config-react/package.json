@@ -1,0 +1,24 @@
+{
+  "name": "@xwartz/eslint-config-react",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "xwartz",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwartz/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.29.4",
+    "eslint": "^8.28.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

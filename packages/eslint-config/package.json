@@ -1,0 +1,21 @@
+{
+  "name": "@xwartz/eslint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "xwartz",
+  "files": [
+    "index.js",
+    "rules.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwartz/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint": "^8.28.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
