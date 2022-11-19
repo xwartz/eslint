@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "sync-version": "node release.js",
-    "release": "pnpm sync-version && pnpm publish -r"
+    "release": "pnpm sync-version && pnpm -r publish --no-git-checks"
   },
   "publishConfig": {
     "access": "public"
