@@ -1,6 +1,6 @@
 {
   "name": "@xwartz/eslint-config",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "description": "This is personal eslint configuration.",
@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "sync-version": "node release.js",
-    "release": "pnpm sync-version && pnpm publish -r"
+    "release": "pnpm sync-version && pnpm -r publish --no-git-checks"
   },
   "publishConfig": {
     "access": "public"
