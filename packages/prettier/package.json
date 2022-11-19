@@ -1,7 +1,7 @@
 {
   "name": "@xwartz/prettier",
-  "version": "0.0.0",
-  "description": "This is prettier config for myself.",
+  "version": "0.0.1",
+  "description": "This is personal prettier config.",
   "main": "prettier.json",
   "publishConfig": {
     "access": "public"

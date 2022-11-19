@@ -5,13 +5,13 @@ This is personal eslint configuration.
 ## Usage
 
 ### JavaScript
-- Install:
+- Install
 
 ```bash
 pnpm i -D @xwartz/eslint-config
 ```
 
-- Use `.eslintrc`:
+- Add config to `.eslintrc`:
 
 ```
 {
@@ -21,13 +21,13 @@ pnpm i -D @xwartz/eslint-config
 
 ### TypeScript
 
-- Install:
+- Install
 
 ```bash
 pnpm i -D @xwartz/eslint-config-ts
 ```
 
-- Use `.eslintrc`:
+- Add config to `.eslintrc`:
 
 ```
 {
@@ -40,13 +40,13 @@ pnpm i -D @xwartz/eslint-config-ts
 
 #### React
 
-- Install:
+- Install
 
 ```bash
 pnpm i -D @xwartz/eslint-config-react @xwartz/eslint-config-ts
 ```
 
-- Use `.eslintrc`:
+- Add config to `.eslintrc`:
 
 ```
 {
@@ -54,5 +54,22 @@ pnpm i -D @xwartz/eslint-config-react @xwartz/eslint-config-ts
   "parserOptions": {
     "project": "./tsconfig.json"
   }
+}
+```
+
+
+## Prettier
+
+- Install
+
+```bash
+pnpm i -D @xwartz/prettier
+```
+
+- Add config to `package.json`
+
+```
+{
+  "prettier": "@xwartz/prettier"
 }
 ```

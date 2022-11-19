@@ -12,7 +12,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "pnpm publish"
+    "release": "pnpm publish -r"
   },
   "publishConfig": {
     "access": "public"
